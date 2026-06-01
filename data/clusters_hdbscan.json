@@ -1,471 +1,471 @@
 {
   "method": "hdbscan",
-  "n_clusters": 16,
-  "noise_count": 30,
+  "n_clusters": 11,
+  "noise_count": 4,
   "assignments": [
     {
       "trace_id": "trace_384",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_478",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_381",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_006",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_270",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_306",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_489",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_227",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_205",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_430",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_279",
-      "cluster_id": -1,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_360",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_144",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_346",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_358",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_329",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_224",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_428",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_108",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_373",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_452",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_391",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_203",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_228",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_200",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_369",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_473",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_389",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_133",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_083",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_356",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_481",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_327",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_457",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_113",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_065",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_334",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_110",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_197",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_476",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_350",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_368",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_427",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_268",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_244",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_086",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_016",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_451",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_497",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_312",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_355",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_260",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_091",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_463",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_367",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_446",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_222",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_281",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_013",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_045",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_073",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_249",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_172",
-      "cluster_id": -1,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_240",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_324",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_068",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_057",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_325",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_189",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_043",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_337",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_001",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_376",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_438",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_352",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_160",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_175",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_162",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_159",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_103",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_033",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_047",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_010",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_188",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_094",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_198",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_304",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_056",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_157",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_202",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_482",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_402",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_299",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
@@ -475,1027 +475,1027 @@
     },
     {
       "trace_id": "trace_397",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_493",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_364",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_049",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_401",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_148",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_067",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_400",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_432",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_386",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_135",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_216",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_143",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_341",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_262",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_466",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_429",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_264",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_213",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_450",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_318",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_117",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_191",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_121",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_290",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_437",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_209",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_461",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_207",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_053",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_066",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_500",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_464",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_115",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_362",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_407",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_465",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_034",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_378",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_230",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_271",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_328",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_319",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_002",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_237",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_028",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_093",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_082",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_186",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_187",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_242",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_040",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_491",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_320",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_019",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_064",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_076",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_226",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_235",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_150",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_382",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_111",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_351",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_233",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_266",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_486",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_313",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_417",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_412",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_163",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_470",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_084",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_338",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_153",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_343",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_440",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_088",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_311",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_060",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_223",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_026",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_014",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_089",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_129",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_405",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_421",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_036",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_261",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_336",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_139",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_174",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_100",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_245",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_062",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_257",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_042",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_247",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_208",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_102",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_183",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_409",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_037",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_151",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_054",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_394",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_081",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_046",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_399",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_317",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_425",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_140",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_302",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_423",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_020",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_012",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_070",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_232",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_146",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_498",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_265",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_059",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_011",
-      "cluster_id": -1,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_136",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_293",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_323",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_085",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_201",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_166",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_424",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_217",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_128",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_022",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_044",
-      "cluster_id": -1,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_180",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_003",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_335",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_015",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_441",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_496",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_370",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_359",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_253",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_458",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_469",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_485",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_167",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_220",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_168",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_492",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_218",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_291",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_176",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_340",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_490",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_179",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_063",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_349",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_316",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_104",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_414",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_096",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_385",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_353",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_137",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_182",
-      "cluster_id": -1,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_130",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_099",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_404",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_411",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_050",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_055",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_092",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_221",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_454",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_406",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_147",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_433",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_484",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_298",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_007",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_211",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_273",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_314",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_326",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_250",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_248",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_322",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_192",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_234",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_259",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_366",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_005",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_078",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_477",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_119",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_071",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_331",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_004",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_422",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_039",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_474",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_416",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_031",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_278",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_408",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
@@ -1505,187 +1505,187 @@
     },
     {
       "trace_id": "trace_280",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_455",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_475",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_181",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_087",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_499",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_252",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_251",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_132",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_173",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_282",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_256",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_467",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_292",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_426",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_118",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_169",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_101",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_079",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_152",
-      "cluster_id": -1,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_395",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_297",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_300",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_284",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_342",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_483",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_075",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_436",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_289",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_024",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_445",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_161",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_383",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_354",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_488",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_241",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_051",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
@@ -1695,732 +1695,732 @@
     },
     {
       "trace_id": "trace_255",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_263",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_185",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_134",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_158",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_184",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_333",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_274",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_239",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_195",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_145",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_442",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_283",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_123",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_204",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_388",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_374",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_390",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_365",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_061",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_379",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_109",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_008",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_156",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_171",
-      "cluster_id": -1,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_107",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_246",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_460",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_287",
-      "cluster_id": 12,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_419",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_301",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_495",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_038",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_021",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_309",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_310",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_444",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_194",
-      "cluster_id": -1,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_138",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_027",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_098",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_371",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_275",
-      "cluster_id": -1,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_048",
-      "cluster_id": 11,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_190",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_231",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_041",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_332",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_170",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_105",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_131",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_125",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_199",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_069",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_272",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_431",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_413",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_435",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_288",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_030",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_238",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_439",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_363",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_410",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_116",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_479",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_243",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_276",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_459",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_095",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_193",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_434",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_077",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_210",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_214",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_357",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_448",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_269",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_403",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_196",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_344",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_330",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_177",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_468",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_254",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_285",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_219",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_348",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_321",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_090",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_377",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_303",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_286",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_032",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_141",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_154",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_212",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_114",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_267",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_487",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_074",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_155",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_122",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_165",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_420",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_471",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_396",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_472",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_296",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_164",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_295",
-      "cluster_id": 8,
+      "cluster_id": 9,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_375",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_418",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_462",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_149",
-      "cluster_id": 14,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_258",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_072",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_029",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_398",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_443",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_387",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_112",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_277",
-      "cluster_id": 13,
+      "cluster_id": 7,
       "true_category": "ANROnMainThread"
     },
     {
       "trace_id": "trace_120",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_225",
-      "cluster_id": -1,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_206",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_023",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_380",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_126",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_025",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_447",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_361",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_345",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_307",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_229",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_018",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_305",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_052",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_035",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_106",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_124",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_009",
-      "cluster_id": 5,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_456",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_453",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_494",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_393",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
@@ -2430,77 +2430,77 @@
     },
     {
       "trace_id": "trace_215",
-      "cluster_id": 6,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_339",
-      "cluster_id": 9,
+      "cluster_id": 10,
       "true_category": "ClassCastException"
     },
     {
       "trace_id": "trace_415",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_017",
-      "cluster_id": 4,
+      "cluster_id": 0,
       "true_category": "AuthTokenExpiry"
     },
     {
       "trace_id": "trace_058",
-      "cluster_id": -1,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_392",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_372",
-      "cluster_id": 0,
+      "cluster_id": 1,
       "true_category": "IndexOutOfBoundsException"
     },
     {
       "trace_id": "trace_449",
-      "cluster_id": 3,
+      "cluster_id": 5,
       "true_category": "FileNotFoundException"
     },
     {
       "trace_id": "trace_480",
-      "cluster_id": 1,
+      "cluster_id": 3,
       "true_category": "StackOverflowError"
     },
     {
       "trace_id": "trace_097",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_142",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     },
     {
       "trace_id": "trace_080",
-      "cluster_id": 10,
+      "cluster_id": 6,
       "true_category": "NullPointerException"
     },
     {
       "trace_id": "trace_178",
-      "cluster_id": 15,
+      "cluster_id": 8,
       "true_category": "NetworkTimeoutException"
     },
     {
       "trace_id": "trace_236",
-      "cluster_id": 7,
+      "cluster_id": 2,
       "true_category": "DatabaseCursorException"
     },
     {
       "trace_id": "trace_127",
-      "cluster_id": 2,
+      "cluster_id": 4,
       "true_category": "OutOfMemoryError"
     }
   ]

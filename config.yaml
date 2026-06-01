@@ -1,5 +1,5 @@
 groq_model: llama-3.1-8b-instant
-min_cluster_size: 15
+min_cluster_size: 21
 min_samples: 1
 n_clusters_kmeans: 10
 seed: 42

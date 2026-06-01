@@ -1,9 +1,9 @@
 {
   "seed": 42,
-  "timestamp": "2026-06-01T07:20:25.862947+00:00",
+  "timestamp": "2026-06-01T08:24:41.462135+00:00",
   "hdbscan": {
-    "n_clusters": 10,
-    "noise_count": 0,
+    "n_clusters": 11,
+    "noise_count": 4,
     "recall": 1.0,
     "purity": 1.0,
     "recovered_clusters": 5,
@@ -16,7 +16,7 @@
       {
         "gt_label": "NullPointerException",
         "recall": 1.0,
-        "matched_cluster_id": 7
+        "matched_cluster_id": 6
       },
       {
         "gt_label": "OutOfMemoryError",
@@ -26,7 +26,7 @@
       {
         "gt_label": "NetworkTimeoutException",
         "recall": 1.0,
-        "matched_cluster_id": 9
+        "matched_cluster_id": 8
       },
       {
         "gt_label": "DatabaseCursorException",

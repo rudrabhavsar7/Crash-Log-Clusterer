@@ -12,7 +12,63 @@ import sys
 
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SRC_DIR)
-st.set_page_config(page_title="Crash-Log Clusterer", layout="wide")
+st.set_page_config(page_title="Crash-Log Clusterer", layout="wide", initial_sidebar_state="expanded")
+
+# Inject Glassmorphism CSS
+st.markdown("""
+<style>
+/* Base Theme */
+.stApp {
+    background: linear-gradient(135deg, #000000 0%, #121212 100%);
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Glassmorphism containers */
+div[data-testid="stMetric"], 
+div.css-1r6slb0, 
+div[data-testid="stExpander"] {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Make dataframe container look glass-like */
+div[data-testid="stDataFrame"] > div {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Minimalist Headings */
+h1, h2, h3 {
+    color: #ffffff !important;
+    font-weight: 300 !important;
+    letter-spacing: -0.5px;
+}
+
+/* Remove default metric background to apply our glass class safely */
+div[data-testid="metric-container"] {
+    background: rgba(255, 255, 255, 0.02) !important;
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(20px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Load data
 @st.cache_data
@@ -41,11 +97,13 @@ if st.sidebar.button("🔄 Re-run Pipeline"):
         config["min_cluster_size"] = min_cluster_size
         with open(os.path.join(ROOT_DIR, "config.yaml"), "w") as f:
             yaml.dump(config, f)
-        # We run the scripts with CWD = SRC_DIR because you hardcoded relative paths like `../config.yaml` inside them!
         subprocess.run([sys.executable, "embed_cluster.py"], cwd=SRC_DIR, check=True)
     with st.spinner("Running llm_labeller.py..."):
         subprocess.run([sys.executable, "llm_labeller.py"], cwd=SRC_DIR, check=True)
+    with st.spinner("Running run_eval.py..."):
+        subprocess.run([sys.executable, os.path.join(ROOT_DIR, "eval", "run_eval.py")], cwd=ROOT_DIR, check=True)
     st.sidebar.success("Pipeline complete!")
+    load_data.clear() # Clear Streamlit cache so new data is loaded!
     st.rerun()
 
 # Extract traces dict
@@ -88,83 +146,73 @@ if not df_clusters.empty:
 else:
     df_filtered = pd.DataFrame()
 
-# Header
+
 st.title("🔍 Crash-Log Clusterer")
 
-col1, col2, col3, col4, col5 = st.columns(5)
-total_traces = len(raw_traces)
-clusters_found = eval_data["hdbscan"]["n_clusters"]
-noise_points = eval_data["hdbscan"]["noise_count"]
-recall_pass = eval_data["gates_passed"]["recall_gte_080"]
-purity_pass = eval_data["gates_passed"]["purity_gte_070"]
+# ROW 1: METRICS (Bento Top Bar)
+m1, m2, m3, m4, m5 = st.columns(5)
+m1.metric("Total Traces", len(raw_traces))
+m2.metric("Clusters Found", eval_data["hdbscan"]["n_clusters"])
+m3.metric("Noise Points", eval_data["hdbscan"]["noise_count"])
+m4.metric("Recall Gate", "✅ PASS" if eval_data["gates_passed"]["recall_gte_080"] else "❌ FAIL")
+m5.metric("Purity Gate", "✅ PASS" if eval_data["gates_passed"]["purity_gte_070"] else "❌ FAIL")
 
-col1.metric("Total Traces", total_traces)
-col2.metric("Clusters Found", clusters_found)
-col3.metric("Noise Points", noise_points)
-col4.markdown(f"**Recall Gate**: {'✅' if recall_pass else '❌'}")
-col5.markdown(f"**Purity Gate**: {'✅' if purity_pass else '❌'}")
+st.markdown("<br>", unsafe_allow_html=True)
 
-tab1, tab2, tab3 = st.tabs(["Clusters", "Comparison", "Evaluation"])
-
-with tab1:
-    st.subheader("Cluster Overview")
+@st.experimental_dialog("Cluster Drill-Down", width="large")
+def show_cluster_details(selected_cluster_id):
+    c_info = next(c for c in labelled_clusters["clusters"] if c["cluster_id"] == selected_cluster_id)
+    llm = c_info["llm_label"]
     
-    event = st.dataframe(
-        df_filtered, 
-        use_container_width=True, 
-        hide_index=True,
-        on_select="rerun",
-        selection_mode="single-row"
-    )
+    st.info(f"**Label**: {llm.get('label')}  \n**File**: {llm.get('suspect_file')}  \n**Severity**: {llm.get('severity')}")
     
-    selected_rows = event.selection.rows
-    if selected_rows:
-        selected_idx = selected_rows[0]
-        selected_cluster_id = df_filtered.iloc[selected_idx]["Cluster ID"]
-        
-        st.divider()
-        st.subheader("Drill-Down Panel")
-        
-        c_info = next(c for c in labelled_clusters["clusters"] if c["cluster_id"] == selected_cluster_id)
-        llm = c_info["llm_label"]
-        
-        st.info(f"**Label**: {llm.get('label')} | **File**: {llm.get('suspect_file')} | **Severity**: {llm.get('severity')}")
-        
-        c_trace_ids = []
-        for assign in hdbscan_data["assignments"]:
-            if assign["cluster_id"] == selected_cluster_id:
-                c_trace_ids.append(assign["trace_id"])
-                
-        st.write(f"Showing traces for Cluster {selected_cluster_id} ({len(c_trace_ids)} traces)")
-        
-        for tid in c_trace_ids:
-            t = traces_dict.get(tid)
-            if not t: continue
+    c_trace_ids = []
+    for assign in hdbscan_data["assignments"]:
+        if assign["cluster_id"] == selected_cluster_id:
+            c_trace_ids.append(assign["trace_id"])
             
-            with st.expander(f"{tid} - {t.get('exception_class', '')}: {t.get('message', '')}"):
-                st.write(f"**Android Version**: {t.get('android_version', 'Unknown')}")
-                frames = t.get("frames", [])[:5]
-                frames_str = "\n".join([f"  at {f['file']}:{f['method']}({f['line']})" for f in frames])
-                st.code(frames_str, language="java")
-
-with tab2:
-    st.subheader("HDBSCAN vs KMeans")
+    st.write(f"Showing traces for Cluster {selected_cluster_id} ({len(c_trace_ids)} traces)")
     
-    h_data = eval_data["hdbscan"]
-    k_data = eval_data["kmeans"]
-    
-    comp_df = pd.DataFrame({
-        "Metric": ["Clusters", "Noise", "Recall", "Purity"],
-        "HDBSCAN": [h_data["n_clusters"], h_data["noise_count"], h_data["recall"], h_data["purity"]],
-        "KMeans": [k_data["n_clusters"], 0, k_data["recall"], k_data["purity"]]
-    })
-    st.table(comp_df)
-    
-    if not df_clusters.empty:
-        fig_bar = px.bar(df_clusters, x="Cluster ID", y="Trace Count", title="HDBSCAN Cluster Sizes")
-        fig_bar.update_xaxes(type='category')
-        st.plotly_chart(fig_bar)
+    for tid in c_trace_ids[:50]: # limit to 50 for performance
+        t = traces_dict.get(tid)
+        if not t: continue
         
+        with st.expander(f"{tid} - {t.get('exception_class', '')}"):
+            st.write(f"**Message**: {t.get('message', '')}")
+            st.write(f"**Android Version**: {t.get('android_version', 'Unknown')}")
+            frames = t.get("frames", [])[:5]
+            frames_str = "\n".join([f"  at {f['file']}:{f['method']}({f['line']})" for f in frames])
+            st.code(frames_str, language="java")
+
+st.subheader("Cluster Overview")
+st.markdown("<p style='color: #a0a0a0;'>Click any row to open the detailed cluster trace view.</p>", unsafe_allow_html=True)
+
+event = st.dataframe(
+    df_filtered, 
+    use_container_width=True, 
+    hide_index=True,
+    on_select="rerun",
+    selection_mode="single-row",
+    key="cluster_table"
+)
+
+selected_rows = event.selection.rows
+if selected_rows:
+    selected_idx = selected_rows[0]
+    selected_cluster_id = df_filtered.iloc[selected_idx]["Cluster ID"]
+    
+    if st.session_state.get("last_selected_cluster") != selected_cluster_id:
+        st.session_state["last_selected_cluster"] = selected_cluster_id
+        show_cluster_details(selected_cluster_id)
+else:
+    st.session_state["last_selected_cluster"] = None
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# ROW 3: Charts Grid
+chart_col1, chart_col2 = st.columns(2)
+
+with chart_col1:
     st.subheader("Embedding Projection (PCA)")
     pca = PCA(n_components=2)
     proj = pca.fit_transform(embeddings)
@@ -182,16 +230,24 @@ with tab2:
         
     proj_df["Cluster"] = labels
     
-    fig_pca = px.scatter(proj_df, x="PCA1", y="PCA2", color="Cluster", hover_data=["Cluster"], title="2D PCA of Traces")
-    st.plotly_chart(fig_pca)
+    # Custom plotly layout for glassmorphism transparency
+    fig_pca = px.scatter(proj_df, x="PCA1", y="PCA2", color="Cluster", hover_data=["Cluster"])
+    fig_pca.update_layout(
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)',
+        font=dict(color='white')
+    )
+    st.plotly_chart(fig_pca, use_container_width=True)
 
-with tab3:
-    st.subheader("Clustering Evaluation")
-    st.json(eval_data)
-    
+with chart_col2:
     st.subheader("Per-Cluster Recall (HDBSCAN)")
     per_c = eval_data["hdbscan"]["per_cluster"]
     pc_df = pd.DataFrame(per_c)
     if not pc_df.empty:
-        fig_recall = px.bar(pc_df, x="recall", y="gt_label", orientation="h", title="Recall by Ground Truth Label")
-        st.plotly_chart(fig_recall)
+        fig_recall = px.bar(pc_df, x="recall", y="gt_label", orientation="h")
+        fig_recall.update_layout(
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            font=dict(color='white')
+        )
+        st.plotly_chart(fig_recall, use_container_width=True)

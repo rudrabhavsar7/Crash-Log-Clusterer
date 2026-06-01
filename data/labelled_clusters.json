@@ -2,6 +2,21 @@
   "clusters": [
     {
       "cluster_id": 0,
+      "trace_count": 45,
+      "representative_trace_ids": [
+        "trace_042",
+        "trace_031",
+        "trace_037"
+      ],
+      "llm_label": {
+        "label": "Token expiry due to refresh failure",
+        "suspect_file": "TokenRefreshManager.kt",
+        "severity": "high",
+        "category": "auth"
+      }
+    },
+    {
+      "cluster_id": 1,
       "trace_count": 47,
       "representative_trace_ids": [
         "trace_359",
@@ -11,12 +26,27 @@
       "llm_label": {
         "label": "IndexOutOfBoundsException in AttendanceAdapter",
         "suspect_file": "AttendanceAdapter.kt",
-        "severity": "critical",
+        "severity": "high",
         "category": "ui"
       }
     },
     {
-      "cluster_id": 1,
+      "cluster_id": 2,
+      "trace_count": 50,
+      "representative_trace_ids": [
+        "trace_236",
+        "trace_246",
+        "trace_228"
+      ],
+      "llm_label": {
+        "label": "CursorIndexOutOfBoundsException in getChild method",
+        "suspect_file": "ChildDataRepository.kt",
+        "severity": "high",
+        "category": "database"
+      }
+    },
+    {
+      "cluster_id": 3,
       "trace_count": 50,
       "representative_trace_ids": [
         "trace_485",
@@ -31,7 +61,7 @@
       }
     },
     {
-      "cluster_id": 2,
+      "cluster_id": 4,
       "trace_count": 48,
       "representative_trace_ids": [
         "trace_127",
@@ -39,14 +69,14 @@
         "trace_130"
       ],
       "llm_label": {
-        "label": "OutOfMemoryError due to large bitmap allocation",
+        "label": "OOM due to large bitmap allocation",
         "suspect_file": "ImageCache.kt",
         "severity": "critical",
         "category": "memory"
       }
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 5,
       "trace_count": 53,
       "representative_trace_ids": [
         "trace_449",
@@ -61,67 +91,52 @@
       }
     },
     {
-      "cluster_id": 4,
-      "trace_count": 28,
-      "representative_trace_ids": [
-        "trace_017",
-        "trace_023",
-        "trace_016"
-      ],
-      "llm_label": {
-        "label": "Token expiry due to refresh failure",
-        "suspect_file": "TokenRefreshManager.kt",
-        "severity": "high",
-        "category": "auth"
-      }
-    },
-    {
-      "cluster_id": 5,
-      "trace_count": 15,
-      "representative_trace_ids": [
-        "trace_025",
-        "trace_041",
-        "trace_038"
-      ],
-      "llm_label": {
-        "label": "Token refresh fails due to expired token",
-        "suspect_file": "TokenRefreshManager.kt",
-        "severity": "high",
-        "category": "auth"
-      }
-    },
-    {
       "cluster_id": 6,
-      "trace_count": 15,
+      "trace_count": 55,
       "representative_trace_ids": [
-        "trace_215",
-        "trace_219",
-        "trace_246"
+        "trace_078",
+        "trace_059",
+        "trace_092"
       ],
       "llm_label": {
-        "label": "CursorIndexOutOfBoundsException in getChild method",
-        "suspect_file": "ChildDataRepository.kt",
-        "severity": "high",
-        "category": "database"
+        "label": "NullPointerException in ProfileLoader",
+        "suspect_file": "ProfileLoader.kt",
+        "severity": "critical",
+        "category": "other"
       }
     },
     {
       "cluster_id": 7,
-      "trace_count": 24,
+      "trace_count": 42,
       "representative_trace_ids": [
-        "trace_236",
-        "trace_214",
-        "trace_202"
+        "trace_261",
+        "trace_257",
+        "trace_258"
       ],
       "llm_label": {
-        "label": "CursorIndexOutOfBoundsException in getChild method",
-        "suspect_file": "ChildDataRepository.kt",
-        "severity": "high",
-        "category": "database"
+        "label": "SyncService causes ANR on main thread",
+        "suspect_file": "SyncService.kt",
+        "severity": "critical",
+        "category": "ui"
       }
     },
     {
       "cluster_id": 8,
+      "trace_count": 52,
+      "representative_trace_ids": [
+        "trace_187",
+        "trace_162",
+        "trace_188"
+      ],
+      "llm_label": {
+        "label": "Socket timeout in ApiClient",
+        "suspect_file": "ApiClient.kt",
+        "severity": "high",
+        "category": "network"
+      }
+    },
+    {
+      "cluster_id": 9,
       "trace_count": 32,
       "representative_trace_ids": [
         "trace_295",
@@ -136,7 +151,7 @@
       }
     },
     {
-      "cluster_id": 9,
+      "cluster_id": 10,
       "trace_count": 22,
       "representative_trace_ids": [
         "trace_339",
@@ -148,96 +163,6 @@
         "suspect_file": "NotificationFactory.kt",
         "severity": "critical",
         "category": "ui"
-      }
-    },
-    {
-      "cluster_id": 10,
-      "trace_count": 29,
-      "representative_trace_ids": [
-        "trace_080",
-        "trace_054",
-        "trace_057"
-      ],
-      "llm_label": {
-        "label": "NullPointerException in ProfileLoader",
-        "suspect_file": "ProfileLoader.kt",
-        "severity": "critical",
-        "category": "other"
-      }
-    },
-    {
-      "cluster_id": 11,
-      "trace_count": 20,
-      "representative_trace_ids": [
-        "trace_048",
-        "trace_098",
-        "trace_091"
-      ],
-      "llm_label": {
-        "label": "NullPointerException in ProfileLoader",
-        "suspect_file": "ProfileLoader.kt",
-        "severity": "critical",
-        "category": "other"
-      }
-    },
-    {
-      "cluster_id": 12,
-      "trace_count": 19,
-      "representative_trace_ids": [
-        "trace_287",
-        "trace_280",
-        "trace_281"
-      ],
-      "llm_label": {
-        "label": "SyncService causes ANR on main thread",
-        "suspect_file": "SyncService.kt",
-        "severity": "critical",
-        "category": "ui"
-      }
-    },
-    {
-      "cluster_id": 13,
-      "trace_count": 21,
-      "representative_trace_ids": [
-        "trace_277",
-        "trace_292",
-        "trace_268"
-      ],
-      "llm_label": {
-        "label": "SyncService causes ANR on main thread",
-        "suspect_file": "SyncService.kt",
-        "severity": "critical",
-        "category": "ui"
-      }
-    },
-    {
-      "cluster_id": 14,
-      "trace_count": 20,
-      "representative_trace_ids": [
-        "trace_149",
-        "trace_164",
-        "trace_175"
-      ],
-      "llm_label": {
-        "label": "Socket timeout in API client",
-        "suspect_file": "ApiClient.kt",
-        "severity": "high",
-        "category": "network"
-      }
-    },
-    {
-      "cluster_id": 15,
-      "trace_count": 27,
-      "representative_trace_ids": [
-        "trace_155",
-        "trace_165",
-        "trace_178"
-      ],
-      "llm_label": {
-        "label": "Socket timeout in API client",
-        "suspect_file": "ApiClient.kt",
-        "severity": "high",
-        "category": "network"
       }
     }
   ]
