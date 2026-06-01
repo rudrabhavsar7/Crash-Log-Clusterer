@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "timestamp": "2026-06-01T07:20:25.862947+00:00",
+  "hdbscan": {
+    "n_clusters": 10,
+    "noise_count": 0,
+    "recall": 1.0,
+    "purity": 1.0,
+    "recovered_clusters": 5,
+    "per_cluster": [
+      {
+        "gt_label": "AuthTokenExpiry",
+        "recall": 1.0,
+        "matched_cluster_id": 0
+      },
+      {
+        "gt_label": "NullPointerException",
+        "recall": 1.0,
+        "matched_cluster_id": 7
+      },
+      {
+        "gt_label": "OutOfMemoryError",
+        "recall": 1.0,
+        "matched_cluster_id": 4
+      },
+      {
+        "gt_label": "NetworkTimeoutException",
+        "recall": 1.0,
+        "matched_cluster_id": 9
+      },
+      {
+        "gt_label": "DatabaseCursorException",
+        "recall": 1.0,
+        "matched_cluster_id": 2
+      }
+    ]
+  },
+  "kmeans": {
+    "n_clusters": 10,
+    "recall": 1.0,
+    "purity": 1.0
+  },
+  "gates_passed": {
+    "recall_gte_080": true,
+    "purity_gte_070": true,
+    "recovered_4_of_5": true,
+    "all_passed": true
+  }
+}
