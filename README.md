@@ -59,5 +59,3 @@ This ensures the pipeline achieves ≥80% recall and ≥70% purity.
 - Real Bugsnag webhook integration
 - Online/incremental clustering for new incoming traces
 - Better embedding model (e.g. CodeBERT for code-aware embeddings)
-- UMAP dimensionality reduction visualization
-- Slack alert integration when critical cluster grows
